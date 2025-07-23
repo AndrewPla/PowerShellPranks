@@ -108,6 +108,9 @@
     - Provides complete undo functionality
     - Non-destructive operations (all changes are reversible)
 
+     IMPORTANT:
+     Browsers that use user profiles (such as Chrome, Edge, and Firefox) may overwrite homepage and startup settings if the browser is running during script execution, or if profiles sync settings from the cloud. For best results, ensure all browsers are closed before running the script, and be aware that profile sync may revert changes.
+
 .LINK
     https://github.com/PowerShellYoungTeam/PowerShellPranks
 

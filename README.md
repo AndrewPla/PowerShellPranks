@@ -18,6 +18,7 @@ A collection of harmless (but hilarious) PowerShell pranks contributed by the co
 - 🎯 **Interactive Menu**: User-friendly website selection with descriptions
 - 🔒 **Safety First**: Multiple confirmation prompts and safety checks
 - 📊 **Detailed Reporting**: Comprehensive status reporting and results summary
+- **Important Note:** Browsers that use user profiles (such as Chrome, Edge, and Firefox) may overwrite homepage and startup settings if the browser is running during script execution, or if profiles sync settings from the cloud. For best results, ensure all browsers are closed before running the script, and be aware that profile sync may revert changes.
 
 ### 🎮 Available Websites
 
