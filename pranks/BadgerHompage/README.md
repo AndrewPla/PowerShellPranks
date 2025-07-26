@@ -1,8 +1,4 @@
-# PowerShellPranks
-
-A collection of harmless (but hilarious) PowerShell pranks contributed by the community. Just enough mischief to make your coworkers raise an eyebrow (and hopefully laugh)
-
-## 🎯 Set-BadgerHomepage.ps1
+# 🎯 Set-BadgerHomepage.ps1
 
 **The Ultimate Prank Experience** - A comprehensive PowerShell prank script that sets browser homepages to legendary fun websites with full system compatibility checks, enhanced error handling, and complete undo functionality!
 
