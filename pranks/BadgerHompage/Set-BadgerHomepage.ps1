@@ -938,6 +938,7 @@ function Set-ChromeHomepage {
                 }
 
                 # Ensure Chrome opens previous session/specific pages on startup (not new tab page)
+                # restore_on_startup values: 1=New Tab Page, 4=Open specific pages, 5=Continue where you left off
                 if (-not $Prefs.session.restore_on_startup) {
                     $Prefs.session | Add-Member -NotePropertyName "restore_on_startup" -NotePropertyValue 4 -Force
                 }
@@ -1059,6 +1060,7 @@ function Set-EdgeHomepage {
                 }
 
                 # Ensure Edge opens previous session/specific pages on startup
+                # restore_on_startup values: 1=New Tab Page, 4=Open specific pages, 5=Continue where you left off
                 if (-not $Prefs.session.restore_on_startup) {
                     $Prefs.session | Add-Member -NotePropertyName "restore_on_startup" -NotePropertyValue 4
                 }
