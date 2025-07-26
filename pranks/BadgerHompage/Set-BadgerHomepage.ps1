@@ -1,7 +1,7 @@
 # Set-BadgerHomepage.ps1
 # PowerShell Prank Script - Sets homepage to fun websites and creates startup shortcut
 # Author: Steven Wight (PowerShell Young Team) with Claude Sonnet 4's help!
-# Date: July 23, 2025
+# Date: July 26, 2025
 # Version: 3.0
 
 <#
@@ -167,9 +167,9 @@ $WebsiteOptions = @{
         Description = "The classic badger animation that will loop forever"
     }
     2 = @{
-        Name        = "Badger Badger Badger Youtube Video"
-        URL         = "https://youtu.be/I-h-kdscGH8"
-        Description = "Youtube Video of the legendary badger animation with Sound"
+        Name        = "Badger Badger Badger YouTube Video"
+        URL         = "https://www.youtube.com/watch?v=I-h-kdscGH8"
+        Description = "YouTube Video of the legendary badger animation with Sound"
     }
 }
 
